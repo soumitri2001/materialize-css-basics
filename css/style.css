@@ -1,0 +1,23 @@
+.nav-wrapper {
+    background-color: #6f4037;
+}
+
+.brand-logo {
+    margin-left: 50px;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #6f4037;
+}
+
+.icon-blog {
+    color: blueviolet;
+}
+
+.footer-one {
+    background-color: #6f4037;
+}
+
+.footer-two {
+    background-color: #462822;
+}

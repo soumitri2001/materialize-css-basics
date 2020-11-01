@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Materialize Playground</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">The Accidental Writer</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal();">Home</a></li>
+                    <li><a href="#" onclick="toggleModal();">Blogs</a></li>
+                    <li><a href="#" onclick="toggleModal();">Poetry</a></li>
+                    <li><a href="#" onclick="toggleModal();">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">Blogs</a></li>
+            <li><a href="#" onclick="toggleModal();">Poetry</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact Me</a></li>
+        </ul>
+    </section>
+
+    <section class="fslider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/roads.jpg" alt="image1" />
+                    <div class="caption center-align white-text">
+                        <h3>Roads that don't let you sleep</h3>
+                        <h5 class="light text-lighten-3">Journey of Life</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/cycles.jpg" alt="image2" />
+                    <div class="caption center-align white-text">
+                        <h3>Roads that don't let you sleep</h3>
+                        <h5 class="light text-lighten-3">Journey of Life</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/scenes.jpg" alt="image3" />
+                    <div class="caption center-align white-text">
+                        <h3>Roads that don't let you sleep</h3>
+                        <h5 class="light text-lighten-3">Journey of Life</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/monument.jpg" alt="image4" />
+                    <div class="caption center-align white-text">
+                        <h3>Roads that don't let you sleep</h3>
+                        <h5 class="light text-lighten-3">Journey of Life</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="section white center">
+            <h2 class="header">Poetry for Life, redefined</h2>
+            <div class="row container center">
+                <div class="col center l8 s12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo quis quasi placeat veniam perspiciatis, quae aperiam, eum minima provident omnis. Nam fuga quae voluptatem voluptas amet ea voluptates nostrum maiores consectetur corporis repudiandae
+                    est provident quo numquam doloribus quis sint tempore iusto voluptatum, dicta minus soluta repellat perferendis dolorum! Nostrum amet et delectus. Natus eveniet suscipit inventore ut rerum aliquam, repudiandae amet beatae temporibus.
+                    Dignissimos similique sapiente, illum minus, doloremque quia perspiciatis, dolor officiis veritatis quos ex. Minus ea officiis magnam fugit quae dolorem aliquid, non sunt error aperiam iure placeat odit quas nostrum, at optio explicabo
+                    itaque qui?<br><br>
+                </div>
+                <div class="col center l4 s12">
+                    <img src="images/suffer.jpg" style="object-fit:contain;" height="200" width="auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fcards">
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/river-boat.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Raghupati Review<i class="material-icons right">more_vert</i></span>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Raghupati Review<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/monument.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Eiffel Tower Review<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Eiffel Tower Review<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/roads.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pather Panchali<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pather Panchali<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fparallax">
+        <div class="parallax-container" style="height: 100px;">
+            <div class="parallax"><img src="images/cycles.jpg" /></div>
+        </div>
+    </section>
+
+    <section class="fabout">
+        <div class="section white center">
+            <div class="row container">
+                <h3 class="header">About Author</h3>
+                <p class="grey-text text-darken-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque accusamus quod porro doloribus voluptate. Fuga, nulla cum. Nihil quibusdam dolore quis repellat sapiente nobis hic voluptatum? Quos officiis esse dolorum aperiam veniam doloremque blanditiis
+                    ea nostrum nulla officia, eligendi quibusdam culpa ad, est, earum distinctio ab fuga illum ipsum autem saepe tempora! Tempora fugiat totam laborum molestiae fuga error recusandae dignissimos, libero sequi. Accusamus, repudiandae culpa
+                    mollitia voluptatum provident minima commodi id deserunt earum quam, magnam perferendis molestiae quaerat maxime, consectetur illum rerum! Fugiat, ab eius repellendus commodi asperiores voluptas nesciunt ea quo consectetur, enim necessitatibus
+                    incidunt quae blanditiis perspiciatis.
+                </p>
+                <a href="#" style="background-color: aqua;" class="btn waves-effect waves-light">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fservices">
+        <div class="row" style="padding-left: 50px; padding-right: 50px">
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="medium material-icons icon-blog">image</i>
+                <h5>Variety of Poetry</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="medium material-icons icon-blog">watch_later</i>
+                <h5>Variety of Films</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding: 50px;">
+                <i class="medium material-icons icon-blog">favorite</i>
+                <h5>Opinions on Politics</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="freviews">
+        <div class="section white center">
+            <h3 class="header"> What other readers say</h3>
+            <div class="carousel myreviews" style="margin-bottom: 30px;">
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color:crimson !important;">
+                                <span class="white-text">Opinion</span>
+                                <p class="white-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea! Mollitia praesentium, adipisci placeat eaque doloribus facere earum error ullam neque id ea temporibus velit excepturi nulla possimus aut illo deserunt eum, facilis molestiae quod,
+                                    consequatur sint autem consectetur? Ad facilis sed ullam illo ex accusantium eius nesciunt enim consectetur!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ffooter">
+        <footer class="footer-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h4 class="white-text">Contact Us</h4>
+                        <p class="grey-text">
+                            ABC 507, Kolkata, India
+                        </p>
+                        <p class="grey-text">
+                            +918777372622
+                        </p>
+                    </div>
+                    <div class="col l6 s12">
+                        <h4 class="white-text">Contact Us</h4>
+                        <ul>
+                            <li><a href="#" class="grey-text">Facebook</a></li>
+                            <li><a href="#" class="grey-text">Instagram</a></li>
+                            <li><a href="#" class="grey-text">GitHub</a></li>
+                            <li><a href="#" class="grey-text">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-two">
+                <div class="col l6 s12">
+                    <p class="white-text">
+                        &copy; theaccidentalwriter
+                    </p>
+                </div>
+                <div class="col l6 s12">
+                    <p class="white-text">
+                        Made by Soumitri Chattopadhyay
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <section class="infomodal ">
+        <div id="modal3 " class="modal ">
+            <div class="modal-content ">
+                <h4 id="info-modal-heading ">Link Disabled</h4>
+                <p id="info-modal-content ">Sorry! All links disabled as yet</p>
+            </div>
+            <div class="modal-footer ">
+                <a href="# " class="modal-close waves-effect btn-flat ">Close</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+<!-- custom js -->
+<script src="js/loader.js "></script>
+
+</html>
